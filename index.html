@@ -3,24 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harsh - Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        li {
+            color: blue;
+            /* Bullet Color */
+        }
+    </style>
 </head>
 <body>
+    <header>
     <div class="container">
-    <div class="heading">
-        <h1>My Portfolio</h1>
-        </div>
-        <div class="sidebar">
-        <a href="#Home"> Home</a>
-        <a href="#My Intro">My Intro</a>
-        <a href="#Skills">Skills</a>
-        <a href="#Experience">Experience</a>
-        <a href="#Contact">Contact</a><br>      
+        <nav class="flex items-center">
+            <div class="container">
+                <div class="heading">
+                    <h2>Harsh Jain &nbsp &nbsp &nbsp &nbsp</h2>
+                </div>            
+            </div>
+            <div class="right flex items-center">
+                    <a href="#home">Home &nbsp &nbsp &nbsp</a>
+                    <a href="#my_intro">My Intro &nbsp &nbsp &nbsp</a>
+                    <a href="#skills">Skills &nbsp &nbsp &nbsp</a>
+                    <a href="#experiences">Experinces &nbsp &nbsp &nbsp</a>
+                    <a href="#contact us">Contact Us</a>
+            </div>
+        </nav>
     </div>
-    <div class="main">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius corporis quasi reprehenderit tenetur sunt? Eligendi porro velit possimus id recusandae est odit, minus eius libero veniam dolor rerum culpa delectus.
+    </header>
+    <div class="page">
+        <section id="my_intro">
+            <div class="profile-image">
+                <img src="./css/images/profile.jpg" alt="Your Name">
+            </div>
+            
+                
+            <p>My Name is Harsh Jain.<br>
+                <h4>Competetive Programmer, Frontend Enthusiast, Anime.</h4><br>
+                I am open to new Opportunities<br>
+                harshjain02@gmail.com<br> <br> <br>
+            </p>
+            
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li><img src="./css/images/html5.svg" alt="html" width="75px" height="75px"></li>
+                <li><img src="./css/images/css.svg" alt="" width="75px" height="75px"></li>
+                <li><img src="./css/images/cpp.svg" alt="" width="75px" height="75px"></li>
+                <li><img src="./css/images/c.svg" alt="" width="75px" height="75px"></li>
+                <li><img src="./css/images/java-icon.svg" alt="" width="75px" height="75px"></li>
+            </ul>
+        </section>
+
     </div>
-</div>
+    
 </body>
 </html>
