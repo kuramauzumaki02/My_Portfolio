@@ -1,0 +1,73 @@
+@import 'utilities.css';
+
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialised;
+}
+header{
+    background-color: var(--dark);
+    height: 35px;
+    padding: 7px;
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav  .right a{
+    color: var(--pure);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav .right a:hover{
+    color: red;
+}
+
+header nav .right{
+    margin-left: 30px;
+    display: inline;
+}
+
+header nav .right a{
+    text-decoration: none;
+    color:#fff;margin-right: 20 px;
+}
+
+header nav .container{
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: #898989;
+}
+.profile-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px; /* Adjust the size as needed */
+    height: 200px; /* Adjust the size as needed */
+    background-color: #fff;
+    border-radius: 50%; /* Makes it round */
+    overflow: hidden;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.profile-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Rounds the image */
+}
+
